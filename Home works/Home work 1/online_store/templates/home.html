@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <link rel="stylesheet" href="/../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+    <div class="header centr_header">
+        <div class="header__logo__form">
+            <a href="/">
+                <img class="img__header__logo" src="/../static/img/header/header_logo.png" alt="logo">
+            </a>
+            <img class="img__header__forma" src="/../static/img/header/header_forma.png" alt="forma">
+        </div>
+        <div class="header__menu">
+            <div class="dropdown">
+                <button class="dropbtn"><img src="../static/img/header/menu_1.png" alt="menu" class="menu1"></button>
+
+            </div>
+            <img src="../static/img/header/menu_2.png" alt="menu" class="menu2">
+            <div>
+                <img src="../static/img/header/menu_3.png" alt="menu" class="menu3">
+                <img src="../static/img/header/circle.png" alt="circle" class="circle">
+            </div>
+        </div>
+    </div> 
+    <div class="product__menu centr__product">
+        <div class="menu__menu" >
+            <a href="/shoes/">
+                <img src="../static/img/product_menu/menu_1.jpg" alt="img" class="product__menu__img">
+                <img src="../static/img/product_menu/fon_menu_1.png" alt="fon" class="img__product__menu__fon">
+                <div class="text__product__menu">
+                    <p class="submain__text">SALE 30%</p>
+                    <p class="main__text">SPORT SHOES</p>
+                </div>
+            </a>
+        </div>
+        <div class="menu__menu" >
+            <a href="/suit/">
+                <img src="../static/img/product_menu/menu_2.jpg" alt="img" class="product__menu__img">
+                <img src="../static/img/product_menu/fon_menu_2.png" alt="fon" class="img__product__menu__fon">
+                <div class="text__product__menu">
+                   <p class="submain__text">HOT DEAL</p>
+                   <p class="main__text">SPORT SUIT</p>
+                </div>
+            </a>
+        </div>
+        <div class="menu__menu" >
+            <a href="/t-shirts/">
+                <img src="../static/img/product_menu/menu_3.jpg" alt="img" class="product__menu__img">
+                <img src="../static/img/product_menu/fon_menu_3.png" alt="fon" class="img__product__menu__fon">
+                <div class="text__product__menu">
+                    <p class="submain__text">NEW COLLECTION</p>
+                    <p class="main__text">T-SHIRTS</p>
+                </div>
+            </a>
+        </div>
+    </div>
+{% block list %}
+{% endblock  %}
+    <footer>
+        <div class="footer__bottom">
+            <div class="brand">
+                <p>
+                    © 2022 Brand All Rights Reserved.
+                </p>
+            </div>
+            <div class="icons">
+                <div>
+                    <img class="icons__fon" src="../static/img/icons_fon.jpg" alt="">
+                    <img class="footer__icons one" src="../static/img/footer/facebook.png" alt="icons">
+                </div>
+
+                <div>
+                    <img class="icons__fon" src="../static/img/icons_fon.jpg" alt="">
+                    <img class="footer__icons two" src="../static/img/footer/instagram.png" alt="iconse">
+                </div>
+                <div>
+                    <img class="icons__fon" src="../static/img/icons_fon.jpg" alt="">
+                    <img class="footer__icons three" src="../static/img/footer/pinterest.png" alt="icons">
+                </div>
+                <div>
+                    <img class="icons__fon" src="../static/img/icons_fon.jpg" alt="">
+                    <img class="footer__icons foor" src="../static/img/footer/twitter.png" alt="icons">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
